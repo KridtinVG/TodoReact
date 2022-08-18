@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Keito Todolist
+          Learn React
         </a>
       </header>
     </div>
