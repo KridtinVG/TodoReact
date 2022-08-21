@@ -98,7 +98,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Todo App</h1>
+      <div className="textApp">Todo App</div>
 
       {isEditing ? (
         <EditForm 

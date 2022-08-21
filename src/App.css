@@ -1,5 +1,11 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  color: #007d9f;
 }
 
 .App-logo {
@@ -39,4 +45,50 @@
 
 li{
   list-style-type: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 5px solid #282fff;
+}
+
+.textApp{
+  font-size: 72px;
+  padding-bottom: 1rem;
+}
+
+button{
+  height: 50px;
+  padding: 1rem;
+  margin: 2px;
+font-weight: bold;
+font-size: 18px;
+border-radius: 15px;
+background-color: rgb(35, 35, 35) ;
+color: #fff;
+}
+
+#Updatebnt {
+  background-color: #61dafb;
+  color: black ;
+}
+#Cancelbnt{
+  background-color: #fff;
+  color: black;
+}
+
+#deletebnt{
+  background-color: #dc3535;
+  color: rgb(255, 255, 255) ;
+}
+
+#itemtext{
+  font-size: 30px;
+  padding: 1rem 2rem;
+}
+
+
+input{
+  padding: 1rem 1rem;
+  height: 20px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }

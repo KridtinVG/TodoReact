@@ -18,8 +18,8 @@ const EditForm = ({
             onChange={onEditInputChange}
           />
 
-          <button type="submit">Update</button>
-          <button onClick={() => setIsEditing(false)}>Cancel</button>
+          <button id='Updatebnt' type="submit">Update</button>
+          <button id='Cancelbnt' onClick={() => setIsEditing(false)}>Cancel</button>
         </form>
     )
 }

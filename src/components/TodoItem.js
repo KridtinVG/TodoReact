@@ -6,10 +6,10 @@ const TodoItem = ({ todo, onEditClick, onDeleteClick, onCheckClick }) => {
         <li  key={todo.id}>
             
           <input type="checkbox" defaultChecked={todo.check} onChange={()=> onCheckClick(todo.id,todo.check,todo)}/>
-            {todo.text}
+           <span  id='itemtext' >{todo.text}</span> 
             {" "}
             <button  onClick={() => onEditClick(todo)}>Edit</button>
-            <button onClick={() => onDeleteClick(todo.id)}>X</button>
+            <button id = "deletebnt" onClick={() => onDeleteClick(todo.id)}>X</button>
             
         </li>
     )
