@@ -9,8 +9,7 @@ const EditForm = ({
     return (
         <form onSubmit={onEditFormSubmit}>
           <h2>Edit Todo</h2>
-          <label htmlFor="editTodo">Edit todo: </label>
-          <input 
+          <input className="input-style"
             type="text" 
             name="editTodo"
             placeholder="Edit todo"
